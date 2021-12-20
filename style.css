@@ -1,0 +1,52 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    position: relative;
+    background-color: rgba(1, 111, 50, 1);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2rem;
+    z-index: 99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    opacity: 0.25;
+    height: 100vh;
+    background-image: url(BLACK-JACK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 3em;
+}
+
+button {
+    color: #016f32;
+    width: 250px;
+    background-color: goldenrod;
+    padding: 0.5em;
+    font-weight: bold;
+    border-radius: 0.11em;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5em;
+    font-size: 1.5rem;
+}
