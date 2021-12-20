@@ -1,2 +1,3 @@
-# Blackjack
-Simple Blackjack game created using js 
+# Blackjack Game
+Simple Blackjack game created using js <br>
+Practicing fundamentals of javascript
