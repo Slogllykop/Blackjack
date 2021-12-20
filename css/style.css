@@ -7,7 +7,7 @@
 body {
     display: flex;
     position: relative;
-    background-color: rgba(1, 111, 50, 1);
+    background-color: rgba(1, 111, 50, 0.5);
     align-items: center;
     justify-content: center;
     flex-direction: column;
