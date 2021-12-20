@@ -27,7 +27,7 @@ body::before {
     width: 100%;
     opacity: 0.25;
     height: 100vh;
-    background-image: url(BLACK-JACK.jpg);
+    background-image: url(img/BLACK-JACK.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
